@@ -40,7 +40,6 @@ body {
   position: fixed;
   top: 30px;
   left: 0;
-  size: 100%;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
