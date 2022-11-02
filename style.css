@@ -35,11 +35,7 @@ body {
 }
 
 .bg {
-  width: 10%;
-  height: 10%;
-  position: fixed;
-  top: 30px;
-  left: 10px;
+
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
