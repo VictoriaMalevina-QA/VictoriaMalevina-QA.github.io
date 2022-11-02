@@ -38,11 +38,10 @@ body {
 .bg {
   width: 100%;
   height: auto;
-  position: fixed;
   top: 30px;
   left: 0;
   object-fit: cover;
-  position: fixed;
+  position: absolute;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
