@@ -36,8 +36,8 @@ body {
 }
 
 .bg {
-  width: 30%;
-  height: 30%;
+  width: 50%;
+  height: auto;
   position: fixed;
   top: 30px;
   left: 10px;
