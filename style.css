@@ -36,13 +36,11 @@ body {
 }
 
 .bg {
-  width: 70%;
-  height: 70%;
+  width: 30%;
+  height: 30%;
   position: fixed;
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-top: auto;
+  top: 30px;
+  left: 30px;
   background-size: cover;
   opacity: 0.5;
   transform: translateX(-50%);
