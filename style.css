@@ -40,6 +40,7 @@ body {
   height: auto;
   object-fit: cover;
   position: absolute;
+  align-items: center;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
