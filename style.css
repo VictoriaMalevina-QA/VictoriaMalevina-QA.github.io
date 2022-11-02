@@ -55,8 +55,8 @@ body {
 
 div.shadow {
     position:absolute;
-    max-width:45%;
-    max-height:45%;
+    max-width:100%;
+    max-height:100%;
     top:50%;
     left:50%;
     overflow:visible;
@@ -66,8 +66,6 @@ img.bg {
     position:relative;
     max-width:100%;
     max-height:100%;
-    margin-top:-50%;
-    margin-left:-50%;
 }
 
 .header {
