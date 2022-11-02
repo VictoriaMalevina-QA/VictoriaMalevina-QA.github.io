@@ -41,7 +41,7 @@ body {
   position: fixed;
   top: 30px;
   left: 0;
-  background-size: cover;
+  object-fit: cover;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
