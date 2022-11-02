@@ -40,7 +40,8 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  align-items: center;
+  top: 30px;
+  left: -50px;
   display: flex;
   flex-direction: column;
   background-size: cover;
