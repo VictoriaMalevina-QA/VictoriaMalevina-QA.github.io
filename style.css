@@ -39,7 +39,7 @@ body {
   max-width : 100%;
   height: auto;
   display: table;
-  margin: 0 auto;
+  margin: 0;
   position: fixed;
   opacity: 0.5;
   transform: translateX(-50%);
