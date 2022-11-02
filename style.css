@@ -37,10 +37,10 @@ body {
 
 .bg {
   width: 50%;
-  height: auto;
+  height: 50%;
   position: fixed;
   top: 30px;
-  left: 30px;
+  left: 60px;
   background-size: cover;
   opacity: 0.5;
   transform: translateX(-50%);
