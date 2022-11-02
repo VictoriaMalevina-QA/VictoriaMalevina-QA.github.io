@@ -4,9 +4,9 @@ const random = (min, max) => {
 }
 
 const button = document.getElementById('btn');
-button.addEventListener('mouseover', function () {
-    button.style.left = `${random(0, 90)}%`;
-    button.style.top = `${random(0, 90)}%`;
+button.addEventListener('mouseenter', function () {
+    button.style.left = `${Math.ceil(Math.random() * 60)}%`;
+    button.style.top = `${Math.ceil(Math.random() * 60)}%`;
 });
 button.addEventListener('click', function () {
     alert('Virtual hugs! ٩(｡•́‿•̀｡)۶')
