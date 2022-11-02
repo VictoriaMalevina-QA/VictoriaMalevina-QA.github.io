@@ -25,6 +25,7 @@
 }
 
 body {
+  
   font-family: "Montserrat";
   background-color: var(--bg);
   color: var(--text);
@@ -35,7 +36,11 @@ body {
 }
 
 .bg {
-
+  width: 10%;
+  height: 10%;
+  position: fixed;
+  top: 30px;
+  left: 0;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
@@ -53,19 +58,11 @@ body {
   z-index: -1;
 }
 
-div.shadow {
-    position:absolute;
-    max-width:100%;
-    max-height:100%;
-    top:50%;
-    left:50%;
-    overflow:visible;
-}
-
-img.bg {
-    position:relative;
-    max-width:100%;
-    max-height:100%;
+.bg {
+    max-width: 100%;
+    height: auto;
+    display: table;
+    margin: 0 auto;
 }
 
 .header {
