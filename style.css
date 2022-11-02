@@ -41,8 +41,6 @@ body {
   display: table;
   margin: 0 auto;
   position: fixed;
-  top: 30px;
-  left: 0;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
