@@ -35,10 +35,12 @@ body {
 }
 
 .bg {
-
-  background-repeat:no-repeat;
-  background-size:cover;
-  background-position:center;
+  width: 10%;
+  height: 10%;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  size: 100%;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
