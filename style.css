@@ -36,11 +36,14 @@ body {
 }
 
 .bg {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  position: absolute;
-  align-items: center;
+  width: 70%;
+  height: 70%;
+  position: fixed;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  background-size: cover;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
