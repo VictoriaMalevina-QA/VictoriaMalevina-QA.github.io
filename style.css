@@ -36,10 +36,12 @@ body {
 }
 
 .bg {
-  max-width : 100%;
+  width: 100%;
   height: auto;
-  display: table;
-  margin: 0;
+  position: fixed;
+  top: 30px;
+  left: 0;
+  object-fit: cover;
   position: fixed;
   opacity: 0.5;
   transform: translateX(-50%);
