@@ -41,7 +41,6 @@ body {
   position: fixed;
   top: 30px;
   left: 0;
-  right: 0;
   object-fit: cover;
   opacity: 0.5;
   transform: translateX(-50%);
