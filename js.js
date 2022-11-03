@@ -1,4 +1,4 @@
-const random = (min, max) => {
+function random(min, max) {
     const rand = min + Math.random() * (max - min + 1);
     return Math.floor(rand);
     var range = 1;
@@ -13,8 +13,8 @@ const random = (min, max) => {
 const button = document.querySelector('#btn');
 // повесим обработчик событий
 button.addEventListener('mouseenter', () => {
-    button.style.left = `${random(0, 90)}%`;
-    button.style.top = `${random(0, 90)}%`;
+    button.style.left = `max(calc(${random(0, 100)}% - ${button.clientWidth}px), 0px)`;
+    button.style.top = `max(calc(${random(0, 90)}% - ${button.clientHeight}px), 0px)`;
 });
 
 
