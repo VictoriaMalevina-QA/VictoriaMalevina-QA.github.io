@@ -136,6 +136,7 @@ img {
 .links__title {
   font-size: 14px;
   font-size: 1.4;
+  opacity: 1.0;
 }
 
 .links__link {
