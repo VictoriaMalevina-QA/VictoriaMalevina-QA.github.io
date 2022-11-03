@@ -35,18 +35,15 @@ body {
   align-items: center;
 }
 
-img {
-  object-fit: cover;
-  width: 30%;
-  height: 30%;
+.bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
 }
 
 .bg {
- 
-  position: fixed;
-  top: 30px;
-  left: 5;
-  right: 5;
 /*   object-fit: cover; */
   opacity: 0.5;
   transform: translateX(-50%);
