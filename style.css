@@ -67,6 +67,11 @@ body {
   margin: 60px 0;
 }
 
+.avatar-container {
+  width: 350px:
+  height: 350px;
+}
+  
 .header__avatar {
   border-radius: 80%;
   width: 30%;
