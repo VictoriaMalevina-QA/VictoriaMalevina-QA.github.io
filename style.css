@@ -130,7 +130,7 @@ img {
   margin: 0;
 }
 
-.links__container:border-box {
+.links__container:background {
    opacity: 0.5;
 }
   
