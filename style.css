@@ -36,12 +36,13 @@ body {
 }
 
 .bg {
-  position: absolute;
+  width: 10%;
+  height: 10%;
+  position: fixed;
+  top: 30px;
   left: 0;
-  top: 0;
-  width: 100%;
-  height: auto;
-/*   object-fit: cover; */
+  right: 0;
+  object-fit: cover;
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
