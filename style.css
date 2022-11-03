@@ -28,6 +28,10 @@ body {
   
   font-family: "Montserrat";
   background-color: var(--bg);
+  background-image: url("./bg.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
   color: var(--text);
   display: flex;
   flex-direction: column;
@@ -36,23 +40,24 @@ body {
 }
 
 .bg {
-  width: 20%;
-  height: 20%;
+  background-color: var(--bg);
+  width: 100vw;
+  height: 100vh;
   position: fixed;
-  top: 100px;
+  top: 0;
   left: 0;
-  object-fit: cover;
-  opacity: 0.5;
+  opacity: 1;
   transform: translateX(-50%);
   transition: transform;
   animation-name: Appearance;
-  animation-duration: 10s;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(.1,-.6,.2,0);
 }
 
 @keyframes Appearance {
   0% {opacity: 0;}
-  50% {opacity: 1;}
+  100% {opacity: 1;}
 }
 
 .bg {
@@ -203,3 +208,4 @@ footer {
 .button-link:hover {
   background: var(--linktext2);
   color: var(--linktext);
+}
