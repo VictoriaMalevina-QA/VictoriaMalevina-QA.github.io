@@ -41,9 +41,6 @@ body {
   top: 0;
   width: 100%;
   height: auto;
-}
-
-.bg {
 /*   object-fit: cover; */
   opacity: 0.5;
   transform: translateX(-50%);
