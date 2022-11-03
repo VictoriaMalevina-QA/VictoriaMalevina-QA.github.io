@@ -1,7 +1,7 @@
 const random = (min, max) => {
     const rand = min + Math.random() * (max - min + 1);
     return Math.floor(rand);
-    var range = 10;
+    var range = 1;
 }
 
 // const button = document.getElementById('btn');
