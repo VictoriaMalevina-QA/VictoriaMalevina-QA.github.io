@@ -37,11 +37,12 @@ body {
 
 img {
   object-fit: cover;
+  width: 30%;
+  height: 30%;
 }
 
 .bg {
-  width: 30%;
-  height: 30%;
+ 
   position: fixed;
   top: 30px;
   left: 5;
