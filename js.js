@@ -1,13 +1,13 @@
-const random = (min, max) => {
-    const rand = min + Math.random() * (max - min + 1);
-    return Math.floor(rand);
-    var range = 10;
-}
+// const random = (min, max) => {
+//     const rand = min + Math.random() * (max - min + 1);
+//     return Math.floor(rand);
+//     var range = 10;
+// }
 
 const button = document.getElementById('btn');
 button.addEventListener('mouseenter', function () {
-    button.style.left = `${Math.ceil(Math.random() * 60)}%`;
-    button.style.top = `${Math.ceil(Math.random() * 60)}%`;
+    button.style.left = `${Math.ceil(Math.random() * 1)}%`;
+    button.style.top = `${Math.ceil(Math.random() * 1)}%`;
 });
 button.addEventListener('click', function () {
     alert('Virtual hugs! ٩(｡•́‿•̀｡)۶')
