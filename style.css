@@ -117,7 +117,6 @@ img {
 .links__container {
   list-style-type: none;
   background: var(--sectionbg);
-  opacity: 0.5;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -131,12 +130,15 @@ img {
   margin: 0;
 }
 
+.links__container:border-box {
+   opacity: 0.5;
+}
+  
 .links__link,
 .text, 
 .links__title {
   font-size: 14px;
   font-size: 1.4;
-  opacity: 1.0;
 }
 
 .links__link {
