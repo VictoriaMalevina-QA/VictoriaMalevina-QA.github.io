@@ -35,13 +35,17 @@ body {
   align-items: center;
 }
 
+img {
+  object-fit: cover;
+}
+
 .bg {
   width: 10%;
   height: 10%;
   position: fixed;
   top: 30px;
   left: 0;
-  object-fit: cover;
+/*   object-fit: cover; */
   opacity: 0.5;
   transform: translateX(-50%);
   transition: transform;
