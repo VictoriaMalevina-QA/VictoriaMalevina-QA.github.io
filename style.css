@@ -186,6 +186,7 @@ footer {
 }
 
 .button-link {
+  font-family: "Montserrat Alternates", sans-serif;
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
