@@ -13,7 +13,7 @@ function random(min, max) {
 const button = document.querySelector('#btn');
 // повесим обработчик событий
 button.addEventListener('mouseenter', () => {
-    button.style.left = `max(calc(${random(0, 100)}% - ${button.clientWidth}px), 0px)`;
+    button.style.left = `max(calc(${random(0, 90)}% - ${button.clientWidth}px), 0px)`;
     button.style.top = `max(calc(${random(0, 90)}% - ${button.clientHeight}px), 0px)`;
 });
 
@@ -21,3 +21,9 @@ button.addEventListener('mouseenter', () => {
 button.addEventListener('click', function () {
     alert('Virtual hugs! ٩(｡•́‿•̀｡)۶')
 })
+
+button.style.left = button.offsetLeft + 'px';
+button.style.top = button.offsetTop + 'px';
+button.style.position = 'absolute';
+button.style.margin = '0';
+button.style.transition = '.4s  ';
