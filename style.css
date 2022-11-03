@@ -193,6 +193,7 @@ footer {
   transition: .4s; */
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 40px;
   left: 0;
   right: 0;
   align-items: center;
