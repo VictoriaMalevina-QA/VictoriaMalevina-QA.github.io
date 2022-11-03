@@ -60,7 +60,7 @@ body {
 }
 
 .header {
-  margin: 100px 0;
+  margin: 60px 0;
 }
 
 .header__avatar {
@@ -84,7 +84,7 @@ body {
 
 .header__title {
   margin: 30px 0 10px 0;
-  font-size: 32px;
+  font-size: 30px;
   line-height: 1.2;
   font-family: "Montserrat";
   text-align: center;
@@ -100,7 +100,7 @@ body {
 
 .links {
   width: 400px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .links__header {
@@ -113,6 +113,7 @@ body {
 .links__container {
   list-style-type: none;
   background: var(--sectionbg);
+  opacity: 0.5;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -179,7 +180,7 @@ footer {
   padding: 15px;
   width: 350px;
   background: var(--linktext);
-  border-radius: 15px;
+  border-radius: 30px;
   border: none;
   outline: none;
 
