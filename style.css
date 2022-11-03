@@ -116,7 +116,8 @@ img {
 
 .links__container {
   list-style-type: none;
-  background: var(--sectionbg);
+/*   background: var(--sectionbg); */
+  background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   display: flex;
   flex-direction: column;
@@ -128,10 +129,6 @@ img {
   flex-grow: 0;
   box-sizing: border-box;
   margin: 0;
-}
-
-.links__container:background {
-   opacity: 0.5;
 }
   
 .links__link,
