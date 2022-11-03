@@ -13,8 +13,8 @@ function random(min, max) {
 const button = document.querySelector('#btn');
 // повесим обработчик событий
 button.addEventListener('mouseenter', () => {
-    button.style.left = `max(calc(${random(0, 90)}% - ${button.clientWidth}px), 0px)`;
-    button.style.top = `max(calc(${random(0, 90)}% - ${button.clientHeight}px), 0px)`;
+    button.style.left = `max(calc(${random(0, 60)}% - ${button.clientWidth}px), 0px)`;
+    button.style.top = `max(calc(${random(0, 60)}% - ${button.clientHeight}px), 0px)`;
 });
 
 
