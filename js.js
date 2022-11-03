@@ -6,8 +6,8 @@
 
 const button = document.getElementById('btn');
 button.addEventListener('mouseenter', function () {
-    button.style.left = `${Math.ceil(Math.random() * 1)}%`;
-    button.style.top = `${Math.ceil(Math.random() * 1)}%`;
+    button.style.left = `${Math.ceil(Math.random() * 5)}%`;
+    button.style.top = `${Math.ceil(Math.random() * 5)}%`;
 });
 button.addEventListener('click', function () {
     alert('Virtual hugs! ٩(｡•́‿•̀｡)۶')
